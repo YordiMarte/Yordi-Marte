@@ -1,27 +1,27 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar"
 
 export default function Home() {
-    return (
-      <main className="max-w-4xl mx-auto px-6">
+  return (
+    <main className="max-w-4xl mx-auto px-6">
 
-        <Navbar />
+      <Navbar />
 
-        <section className="mt-24">
+      <section className="mt-24">
 
-          <h1 className="text-4xl font-bold text-white">
-            hey, Yordi here!
-          </h1>
+        <h1 className="text-4xl font-bold">
+          hey, Yordi here!
+        </h1>
 
-          <p className="text-gray-400 mt-4 max-w-xl">
-              I{"'"}m a Software Engineer focused on backend infrastructure,
-              distributed systems and scalable APIs.
-          </p>
+        <p className="text-gray-400 mt-4 max-w-xl">
+          I{}m a Software Engineer focused on backend infrastructure,
+          distributed systems and scalable APIs.
+        </p>
 
-        </section>
+      </section>
 
-        <section className="mt-20 grid gap-6 md:grid-cols-2">
+      <section className="mt-20 grid gap-6 md:grid-cols-2">
+      </section>
 
-        </section>
-      </main>
-    )
+    </main>
+  )
 }
